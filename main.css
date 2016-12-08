@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffcccc;
+    padding-top: 75px;
+    color: floralwhite;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+h4 {
+    color: #ff0066;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30pt;
+    text-align: center;
+    padding-bottom: -5px;
+    text-shadow: 2px 2px antiquewhite;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1.5px 1.5px #ff0066;
+    font-size: 20pt;
+    background: white;
+    color: #99cc99;
+    padding: 4px;
+    border: 1px solid #99cc99;
+}
+
+.fly,
+.borns, 
+.unity {
+    width: 300px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.me {
+    width: 200px;
+}
+p {
+    font-family: 'Shadows Into Light', cursive;
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 80%;
+    text-align: center;
+    background: #99cc99;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about {
+    display: inline-block;
+}
+.contact ul {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.contact li {
+    color: #ff0066;
+}
+
+.main-nav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.main-nav li {
+    float: right;
+    border-right: 2.5px solid #99cc99;
+}
+
+.main-nav li:first-child {
+    border-right: none;
+    float: left;
+}
+
+
+.main-nav li a {
+    font-family: 'Pacifico', cursive;
+    display: block;
+    color: #ffcccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16pt;
+}
+    
+/*-----Media-----*/
+    
+    
+    @media (max-width 769px) {
+        
+        .container,
+        .main-nav {
+            width: initial;
+            height: initial:
+        }
+        
+        body {
+            
+        }
+        
+        
+    }
+
